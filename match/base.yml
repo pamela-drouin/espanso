@@ -13,6 +13,10 @@ matches:
   - trigger: ";espanso"
     replace: "Hi there!"
 
+  # Simple text replacement
+  - trigger: ";/"
+    replace: "/pam"
+
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
 
   # But matches can also be dynamic:
