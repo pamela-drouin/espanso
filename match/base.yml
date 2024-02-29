@@ -28,7 +28,7 @@ matches:
       - name: mydate
         type: date
         params:
-          format: "%Y/%m/%d/"
+          format: "%Y/%m/%d"
 
   # Print the output of a shell command
   - trigger: ";shell"
@@ -39,7 +39,7 @@ matches:
         params:
           cmd: "echo 'Hello from your shell'"
 
-  # Tech
+  # Bug report
   - trigger: ";bug"
     replace: |
       Steps to reproduce:
@@ -47,3 +47,29 @@ matches:
       Expected result:
 
       Actual result:
+
+  # Github collapsed section
+  - trigger: ";toggle"
+    replace: |
+      <details>
+
+      <summary>Tips for collapsed sections</summary>
+
+      ### You can add a header
+
+      You can add text within a collapsed section.
+
+      You can add an image or a code block, too.
+
+      ```ruby
+         puts "Hello World"
+      ```
+
+      </details>
+
+  # Markdown table
+  - trigger: ";table"
+    replace: |
+      | First Header  | Second Header |
+      | ------------- | ------------- |
+      | Content Cell  | Content Cell  |
