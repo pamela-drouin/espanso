@@ -17,9 +17,45 @@ matches:
   - trigger: ";/"
     replace: "/pam"
 
-  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+  # Simple text replacement
+  - trigger: ";10%"
+    replace: "<progress value="10" max="100"></progress>"
 
-  # But matches can also be dynamic:
+  # Simple text replacement
+  - trigger: ";20%"
+    replace: "<progress value="20" max="100"></progress>"
+
+  # Simple text replacement
+  - trigger: ";30%"
+    replace: "<progress value="30" max="100"></progress>"
+
+  # Simple text replacement
+  - trigger: ";40%"
+    replace: "<progress value="40" max="100"></progress>"
+
+  # Simple text replacement
+  - trigger: ";50%"
+    replace: "<progress value="50" max="100"></progress>"
+
+  # Simple text replacement
+  - trigger: ";60%"
+    replace: "<progress value="60" max="100"></progress>"
+
+  # Simple text replacement
+  - trigger: ";70%"
+    replace: "<progress value="70" max="100"></progress>"
+
+  # Simple text replacement
+  - trigger: ";80%"
+    replace: "<progress value="80" max="100"></progress>"
+
+  # Simple text replacement
+  - trigger: ";90%"
+    replace: "<progress value="90" max="100"></progress>"
+
+  # Simple text replacement
+  - trigger: ";100%"
+    replace: "<progress value="100" max="100"></progress>"
 
   # Print the current date
   - trigger: ";date"
