@@ -1,7 +1,15 @@
---- Toggle key
+---
+# Search Shortcut Configuration
 
-search_shortcut: ALT+SHIFT+SPACE
+mappings:
+  my_custom_search_shortcut:
+    key: <TAB>+<CMD>+<SPACE>
+    command: espanso-search
 
+Toggle key:
+  name: Custom search toggle
+  search_shortcut:
+    key: <my_custom_search_shortcut>
 # espanso configuration file
 
 # For a complete introduction, visit the official docs at: https://espanso.org/docs/
