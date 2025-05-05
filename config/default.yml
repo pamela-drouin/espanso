@@ -3,7 +3,7 @@
 
 mappings:
   my_custom_search_shortcut:
-    key: <TAB>+<CMD>+<SPACE>
+    key: <TAB>+<E>
     command: espanso-search
 
 Toggle key:
