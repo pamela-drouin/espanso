@@ -1,15 +1,6 @@
----
+search_shortcut: OPTION+O
 # Search Shortcut Configuration
 
-mappings:
-  my_custom_search_shortcut:
-    key: <TAB>+<E>
-    command: espanso-search
-
-Toggle key:
-  name: Custom search toggle
-  search_shortcut:
-    key: <my_custom_search_shortcut>
 # espanso configuration file
 
 # For a complete introduction, visit the official docs at: https://espanso.org/docs/
@@ -19,7 +10,7 @@ Toggle key:
 # but you can also override them on a per-application basis.
 
 # To make customization easier, this file contains some of the commonly used
-# parameters. Feel free to uncomment and tune them to fit your needs!
+# parameters. Feel fPlease subscribe and like this video!ree to uncomment and tune them to fit your needs!
 
 # --- Toggle key
 
